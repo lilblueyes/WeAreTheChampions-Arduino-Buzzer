@@ -1,5 +1,7 @@
 /* 
 A program to play the famous melody of Queen using an Arduino board and a buzzer.
+Replace 'XX' with your actual buzzer pin number.
+
 Coded by lilblueyes.
 */
 
@@ -41,7 +43,7 @@ Coded by lilblueyes.
 #define NOTE_AS3 233
 #define NOTE_B3 247
 
-#define BUZZER 13
+#define BUZZER XX // Your buzzer pin
 
 
 // Melody notes
